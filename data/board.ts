@@ -1,0 +1,28 @@
+import type { BoardTile } from "@/lib/game";
+
+export const BOARD: BoardTile[] = [
+  { id: "launch", title: "Launch Pad", type: "start", icon: "🚀", subtitle: "Collect 200 credits" },
+  { id: "action-1", title: "Give or Take", type: "action", icon: "🎴", subtitle: "Action card" },
+  { id: "nebula", title: "Nebula Market", type: "special", icon: "🌌", subtitle: "A little surprise" },
+  { id: "treasure-1", title: "Treasure Drift", type: "treasure", icon: "💎", subtitle: "Push your luck" },
+  { id: "decision-1", title: "Big Question", type: "decision", icon: "💭", subtitle: "Class decision" },
+  { id: "action-2", title: "Give or Take", type: "action", icon: "🎴", subtitle: "Action card" },
+  { id: "meteor", title: "Meteor Shower", type: "special", icon: "☄️", subtitle: "Space weather" },
+  { id: "treasure-2", title: "Treasure Drift", type: "treasure", icon: "💎", subtitle: "Push your luck" },
+  { id: "action-3", title: "Give or Take", type: "action", icon: "🎴", subtitle: "Action card" },
+  { id: "comet", title: "Comet Crossing", type: "special", icon: "🌠", subtitle: "A lucky break?" },
+  { id: "decision-2", title: "Big Question", type: "decision", icon: "💭", subtitle: "Class decision" },
+  { id: "treasure-3", title: "Treasure Drift", type: "treasure", icon: "💎", subtitle: "Push your luck" },
+  { id: "action-4", title: "Give or Take", type: "action", icon: "🎴", subtitle: "Action card" },
+  { id: "black-hole", title: "Black Hole", type: "special", icon: "🌀", subtitle: "Watch your wallet" },
+  { id: "action-5", title: "Give or Take", type: "action", icon: "🎴", subtitle: "Action card" },
+  { id: "decision-3", title: "Big Question", type: "decision", icon: "💭", subtitle: "Class decision" },
+  { id: "treasure-4", title: "Treasure Drift", type: "treasure", icon: "💎", subtitle: "Push your luck" },
+  { id: "action-6", title: "Give or Take", type: "action", icon: "🎴", subtitle: "Action card" },
+  { id: "satellite", title: "Satellite Station", type: "special", icon: "🛰️", subtitle: "Signal received" },
+  { id: "treasure-5", title: "Treasure Drift", type: "treasure", icon: "💎", subtitle: "Push your luck" },
+  { id: "action-7", title: "Give or Take", type: "action", icon: "🎴", subtitle: "Action card" },
+  { id: "decision-4", title: "Big Question", type: "decision", icon: "💭", subtitle: "Class decision" },
+  { id: "solar", title: "Solar Flare", type: "special", icon: "☀️", subtitle: "Bright idea" },
+  { id: "treasure-6", title: "Treasure Drift", type: "treasure", icon: "💎", subtitle: "Push your luck" },
+];
