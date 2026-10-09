@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zest Universe: The Greed Game",
+  title: "Cash Dash",
   description: "A classroom game of chance, choice and cooperation.",
 };
 
